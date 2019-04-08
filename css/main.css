@@ -6,122 +6,139 @@
 }
 
 #container {
-             width: 1400px;
-             height: 1400px;
-             margin: 0 auto;
-             /*background-image: url(../images/banana-split-1380378_1920a.jpg);*/
+            width: 1500px;
+            height: 1400px;
+            margin: 0 auto;
+            background-color: #f7f4ba;
 }
 
 body {
-      
+        font-family: 'McLaren', cursive;
 }
 
 header {
-        width: 1400px;
-        height: 400px;
-        text-align: center;
-        /*background-image:*/
+        background-image: url(/images/ice-cream-sundae 2.jpg);
+        background-position:center;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 50%;
 }
 
 nav {
-     background: yellow;
-     height: 35px;
+     background:#4d3319;
+      position: fixed;
+      height: 70px;
+      padding: 40px;
+      width: 1500px;
 }
     
 nav ul {
-        display: flex; 
-        justify-content:center;
-        flex-wrap: space-between;
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
 }
     
 nav ul li {
-         flex: 1 0 auto;
+          display: inline;
+          margin: 50px 40px;
          text-align: center;
          text-decoration: none;
          list-style-type: none;
+         
 }
 
 nav ul li a {
+             /*display: block;*/
              text-decoration: none;
+             color: white;
+             font-size: 20px;
 }
 
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    
-    20% {
-         left: 0;
-    }
-    
-    25% {
-         left: 100%;
-    }
-    left
-    45% {
-         left: 100%;
-    }
-    
-    50% {
-         left: 200%;
-    }
-    
-    70% {
-         left: 200%;
-    }
-    
-    75% {
-         left: 300%;
-    }
-    
-    95% {
-         left: 300%;
-    }
-    
-    100% {
-         left: 300%;
-    }
+
+a:hover {
+        background-color: #f7f4ba;
+        padding: 25px;
+}
+#flex-container {
+                 display: flex;
+                 flex: 1 0 auto;
+                 justify-content: space-around;
+                 margin: 50px;
+              
 }
 
-    #slider {
-         overflow: hidden;
-         margin-left: auto;
-         margin-right: auto;
-    }
-
-    #slider figure img {
-                    width: 20%;
-                    float: left;
-    }
-    
-    #slider figure {
-                    position: relative;
-                    width: 300%;
-                    padding: 30px;
-                    left: 0;
-                    text-align: center;
-                    font-size: 0;
-                    animation: 20s slider infinite;
-                    /*animation-direction: normal;*/
-    }    
-
-.first {
-        height: 400px;
-        width: 1400px;
-        margin: 10px;
-        border: 2px solid black;
+table {
+       border-collapse: collapse;
+      
 }
 
-.second {
-         height: 400px;
-         width: 1400px;
+table, th, td{
+          text-align: center;
+          color: #A52A2A;
+          border: 2px solid brown;
+          border-style: hidden;
+}
+
+th {
+     font-size: 40px;
+     padding: 10px;
+}
+
+td {
+     font-size: 25px;
+     padding: 10px;
+}
+
+.location {
+           height: 200px;
+}
+
+.location h2 {
+             font-size: 40px;
+             padding-bottom: 35px;
+            
+}
+
+.location p {
+            line-height: 30px;
+            font-size: 30px;
+}
+
+form {
+      color: brown;
+}
+
+form .mailinglist h2 {
+                   font-size: 40px;
+                   margin-top: 15px;
+}
+
+input[type="text"] {
+                    width: 250px;
+                    padding: 10px;
+                    margin: 10px;
+}
+
+.submit {
          margin: 10px;
-         border: 2px solid black;
+         text-align: center;
+         font-family: 'McLaren', cursive;
 }
 
+
+input[type="submit"] {
+                       width: 40%;
+                       padding: 5%;
+                       font-size: 15px;
+}
 footer {
-        height: 50px;
-        width: 1400px;
+        height: 60px;
+        width: 100%;
+        margin-right: 700px;
+        margin-top: 300px;
+        background-color: #4d3319;
         border: 2px solid black;
+        border-style: hidden;
 }
 
