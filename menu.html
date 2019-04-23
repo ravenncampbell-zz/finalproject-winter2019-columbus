@@ -3,6 +3,7 @@
     <head>
         <title>Menu</title>
         <link href="css/styles.css" rel="stylesheet">
+        <link href="css/universal.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">  
     </head>
     <body>
@@ -11,29 +12,68 @@
           <h2>Menu</h2>       
         </header>
         <nav>
-         <ul>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="about.html">About Us</a></li>
-             <li><a href="menu.html">Menu</a></li>
-             <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
+         <p class="logo">Sundaes Ice-Cream Place</p>
+             <a href="menu.html">Menu</a>
+             <a href="about.html">About Us</a>
+             <a href="index.html">Home</a>
       </nav>
-        <section>
+        <header>
+         </header>
+          <div class="flex-box">
+          <section class="location">
             <table>
                 <tr>
-                    <td>ice cream</td>
+                    <th colspan="2">Location</th>
                 </tr>
                 <tr>
+                    <td colspan="2">1234 Main Street</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Bronx, NY 10463</td>
+                </tr>
+             </table>
+         </section >
+          <section class="store-hours">
+            <table>
+                <tr>
+                    <th colspan="2">Store Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday to Friday</td>
+                    <td>10am - 8pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday and Sunday</td>
+                    <td>11am - 6pm</td>
+                </tr>
+                <tr>
+                    <td>Telephone</td>
+                    <td>(718) 555-5309</td>
                 </tr>
             </table>
           </section>
-        <section class="first">
-            <article class="second">
-            </article>
-        </section>
-        <footer>
-            <h2>Footer</h2>
-        </footer>
-     </div>
+          <section>
+              <form>
+                  <h2>Join Our Mailing List</h2>
+                  <div class="mailinglist">
+                      <input type="text" placeholder="Name" name="name" required>
+                      <input type="text" placeholder="Email address" name="mail" required>
+                  </div>
+                  <div class="mailinglist">
+                    <input type="submit" value="Subscribe">
+                  </div>
+              </form>
+          </section>
+        </div>
+     <footer>
+         <div class="icons">
+                <ul>
+                    <li><a href="http://www.facebook.com"><img src="images/facebook-icon.png" /></a></li>
+                    <li><a href="http://www.instagram.com"><img src="images/instagram-icon.png" /></a></li>
+                    <li><a href="http://www.twitter.com"><img src="images/twitter-icon.png" /></a></li>
+                </ul>
+         </div>
+      </footer> 
+    </div>
     </body>
 </html>
