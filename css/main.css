@@ -1,143 +1,112 @@
-* {
-    margin: 0;
-    padding: 0;
-    line-height: 1.75;
-    box-sizing: border-box;
-}
-
-#container {
-            width: 1500px;
-            height: 1400px;
-            margin: 0 auto;
-            background-color: #f7f4ba;
-}
-
 body {
-        font-family: 'McLaren', cursive;
+        font-family: 'Alice', serif;
 }
 
-header {
-        background-image: url(../images/ice-cream-sundae2.jpg);
+header { 
+        background-image: url(../images/index-logo.jpg);
         background-position:center;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: contain;
-        height: 50%;
+        height: 60%;
+        width: 100%;
+        border-bottom: 1px solid #A52A2A;
+}
+  
+.flex-box {
+           display:flex;
+           flex-flow: row nowrap;
+           justify-content: center;
+           align-items: flex-start;
+           margin-top: 30px;
 }
 
-nav {
-     background:#4d3319;
-      position: fixed;
-      height: 70px;
-      padding: 40px;
-      width: 1500px;
-}
-    
-nav ul {
-         list-style-type: none;
-         margin: 0;
-         padding: 0;
-         overflow: hidden;
-}
-    
-nav ul li {
-          display: inline;
-          margin: 50px 40px;
-         text-align: center;
-         text-decoration: none;
-         list-style-type: none;
-         
+.store-hours {
+             border-collapse: collapse;
+             margin-left: 90px;
+             margin-right: -35px;
+       
 }
 
-nav ul li a {
-             text-decoration: none;
-             color: white;
-             font-size: 20px;
-}
-
-
-a:hover {
-        background-color: #f7f4ba;
-        padding: 25px;
-}
-#flex-container {
-                 display: flex;
-                 flex: 1 0 auto;
-                 justify-content: space-around;
-                 margin: 50px;
-              
-}
-
-table {
-       border-collapse: collapse;
-      
-}
 
 table, th, td{
-          text-align: center;
-          color: #A52A2A;
-          border: 2px solid brown;
-          border-style: hidden;
+              text-align: center;
+              color: #7B000B;
+              border: 2px solid #A52A2A;
+              border-style: hidden;
 }
 
 th {
      font-size: 40px;
+     color: #E13619;
      padding: 10px;
 }
 
 td {
-     font-size: 25px;
-     padding: 10px;
+     font-size: 30px;
+     padding: 5px;
 }
 
 .location {
-           height: 200px;
+           border-collapse: collapse;
+           height: 300px;
 }
 
-.location h2 {
+.location th {
              font-size: 40px;
-             padding-bottom: 35px;
-            
 }
 
-.location p {
-            line-height: 30px;
-            font-size: 30px;
+.location td {
+              font-size: 30px;
+              padding: 5px
 }
 
 form {
-      color: brown;
+      font-family: 'Alice', serif;
+      margin-left: 150px;
+      margin-top: 10px;
 }
 
-form .mailinglist h2 {
-                   font-size: 40px;
-                   margin-top: 15px;
-}
-
-input[type="text"] {
-                    width: 250px;
-                    padding: 10px;
-                    margin: 10px;
-}
-
-.submit {
-         margin: 10px;
+form h2 {
+         font-size: 40px;
+         color: #E13619; 
          text-align: center;
-         font-family: 'McLaren', cursive;
+}
+
+.mailinglist {
+              padding: 5px;
+}
+
+input[type=text], input[type=submit] {
+                                      width: 100%;
+                                      padding: 10px;
+                                      margin: 8px 0;
+                                      display: inline-block;
+                                      border: 1px solid #A52A2A;
+                                      box-sizing: border-box;
 }
 
 
-input[type="submit"] {
-                       width: 40%;
-                       padding: 5%;
-                       font-size: 15px;
+
+input[type=submit] {
+                    background-color: #E13619;
+                    width: 150px;
+                    margin-left: 130px;
+                    color: #FFFFFF;
 }
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
 footer {
-        height: 60px;
+        height: 70px;
         width: 100%;
-        margin-right: 700px;
-        margin-top: 300px;
-        background-color: #4d3319;
-        border: 2px solid black;
-        border-style: hidden;
+        margin-top: 190px;       
+        background-color: #E13619;
 }
+
+
+
+
+
 
