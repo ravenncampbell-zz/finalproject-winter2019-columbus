@@ -1,3 +1,6 @@
+/*Universal Styles are used to style the elements that are on all .html pages*/
+
+/*This style is used to reset all margin, padding, line-height and box-sizing properties to 0.*/
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* I wanted all web pages to have the same height and width*/
 #container {
             width: 1200px;
             height: 1475px;
@@ -49,6 +53,7 @@ nav a:visited {
                color: #FFE44D;
 }
 
+/*This the style for store logo*/
 .logo {
        float: left;
        background-color: #FFD700;
@@ -65,6 +70,7 @@ nav a:visited {
        padding-top: 10px;
 }
 
+/* styles for the social media icons in the footer element*/
 .icons {
         float:right;
         margin: 10px;
