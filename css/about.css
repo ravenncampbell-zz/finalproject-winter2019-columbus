@@ -7,20 +7,22 @@ header {
         border-bottom: 1px solid #A52A2A;
 }
 header img{
-        width: 1500px;
-        height: 650px;
-        margin-bottom: 15px;
+           width: 1200px;
+           height: 675px;
+           margin-bottom: 15px;
 }
 
 h1 {
      font-size: 40px;
      text-align: center;
      color: #E13619;
+     margin-top: 20px;
      margin-bottom: 10px;
 }
 
 .about {
         margin-top: 100px;
+        margin-bottom: 50px;
 }
 
 .about p {
@@ -28,15 +30,15 @@ h1 {
          font-size: 20px;
          font-weight: bold;
          color: #A52A2A;
-         margin-left: 275px;
-         margin-right: 275px;
+         margin-left: 200px;
+         margin-right: 200px;
          line-height: 35px;
 }
 
 footer {
         height: 70px;
         width: 100%;
-        margin-top: 240px;
+        margin-top: 146px;
         background-color: #E13619;
 }
 
