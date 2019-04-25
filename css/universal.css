@@ -6,7 +6,7 @@
 }
 
 #container {
-            width: 1500px;
+            width: 1200px;
             height: 1475px;
             margin: 0 auto;
             background: #FFFFFF;
@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-      width: 1500px;
+      width: 1200px;
       padding: 5px;
       background-color: #E13619;
       position: fixed;
@@ -39,12 +39,14 @@ nav a {
 } 
 
 nav a:hover {
-             background-color: #FFD700;
+             background-color: #E59A9A;
+             opacity: .5%;
+             border-radius: 50%;
 }
 
 
 nav a:visited {
-               color: #FFD700;
+               color: #FFE44D;
 }
 
 .logo {
